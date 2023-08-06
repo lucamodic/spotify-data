@@ -11,7 +11,18 @@
     <title>Spotify-Data</title>
 </head>
 <body>
+    <div class="mid">
 
+        <form:form class="" method="POST" action="show">
+            <label for="url"></label>
+            <input placeholder="37i9dQZF1DZ06evO05tE88" class="url" type="text" name="url"
+                   id="url" value=""></input>
+            <input class="show" type="submit" name="btn"
+                  value="Show songs"></input>
+        </form:form>
+
+
+    </div>
 
 
 
